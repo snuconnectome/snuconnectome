@@ -1,0 +1,3 @@
+MacBook Pro 터미널에서 실행할 명령:
+
+cd ~/Desktop && curl -L -o "워크샵_제출_자료.pdf" "https://github.com/snuconnectome/snuconnectome/raw/main/워크샵_제출_자료.pdf"

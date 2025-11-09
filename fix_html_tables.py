@@ -132,12 +132,23 @@ def markdown_to_html(md_content):
                     i = new_i
                     continue
         
-        # 교수 목록을 표로 변환
-        if '#### 6.2.1 서울대학교 심리학과 현직교수진' in line or (i > 0 and '#### 6.2.1' in lines[i-1] and '현직교수진' in lines[i-1]):
-            # 교수 목록 섹션 찾기
-            prof_table, new_i = process_professor_list_to_table(lines, i)
-            if prof_table:
-                html_lines.append(prof_table)
+        # 표 처리 (교수 명단 포함, 모든 표 처리)
+        if '|' in line and not line.strip().startswith('|') and i > 0:
+            # 이전 줄이 표의 일부인지 확인
+            if '|' in lines[i-1] and '|--' not in lines[i-1] and '|---' not in lines[i-1]:
+                table_html, new_i = process_table(lines, i-1)
+                if table_html:
+                    # 이미 추가했는지 확인
+                    if html_lines and html_lines[-1] != table_html:
+                        html_lines.append(table_html)
+                    i = new_i
+                    continue
+        
+        # 표 시작 라인 처리 (헤더 라인)
+        if '|' in line and line.strip().startswith('|'):
+            table_html, new_i = process_table(lines, i)
+            if table_html:
+                html_lines.append(table_html)
                 i = new_i
                 continue
         

@@ -1,13 +1,44 @@
-# Jiook Cha (차지욱) · SNU Connectome Lab
+<a href="https://www.connectomelab.com"><picture>
+  <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/hero-dark-mobile.png">
+  <source media="(max-width: 600px)" srcset="assets/hero-light-mobile.png">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.png">
+  <img src="assets/hero-light.png" width="100%" alt="Jiook Cha (차지욱), Connectome Lab, Seoul National University. Understanding human differences through brain, mind and intelligence.">
+</picture></a>
 
-**서울대학교 심리학과 · 협동과정 인공지능전공(IPAI) · 뇌인지과학과 부교수**  
-Associate Professor, Seoul National University · Principal Investigator, Connectome Laboratory
+[Lab website](https://www.connectomelab.com) · [Publications](https://scholar.google.com/citations?user=fHSAoOoAAAAJ) · [Research code](https://github.com/Transconnectome) · [Email](mailto:connectome@snu.ac.kr)
 
----
+**Jiook Cha · 차지욱**<br>
+Associate Professor, Seoul National University · PI, Connectome Lab<br>
+서울대학교 심리학과 · 협동과정 인공지능전공(IPAI) · 뇌인지과학과 부교수
 
-## 연구 핵심 (Research Focus)
+Why do people think, feel and develop differently? We study connections
+between genes, brains, behavior and environments, combining neuroscience
+with AI models of brain activity.
 
-사람마다 생각하고 느끼며 자라나는 모습은 왜 다를까요?  
+**사람마다 생각하고 느끼며 자라나는 모습은 왜 다를까요?**<br>
+유전·뇌·행동·환경의 연결에서 인간의 개인차를 연구합니다.
+잘 예측하는 것과 왜 그런지 설명하는 것 사이의 거리를 좁히고자 합니다.
+
+### Selected research code
+
+<p><a href="https://github.com/Transconnectome/SwiFT"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-swift-dark.png"><img src="assets/card-swift-light.png" width="49%" alt="SwiFT: 4D fMRI transformer. View public repository."></picture></a><a href="https://github.com/Transconnectome/SwiFUN"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-swifun-dark.png"><img src="assets/card-swifun-light.png" width="49%" alt="SwiFUN: Predicting task-related activity from resting-state fMRI. View public repository."></picture></a></p>
+
+<p><a href="https://github.com/Transconnectome/MBBN"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-mbbn-dark.png"><img src="assets/card-mbbn-light.png" width="49%" alt="MBBN: Learning brain dynamics across frequency bands. View public repository."></picture></a><a href="https://github.com/Transconnectome/NeuroMamba"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-neuromamba-dark.png"><img src="assets/card-neuromamba-light.png" width="49%" alt="NeuroMamba: A state-space foundation model for fMRI. View public repository."></picture></a></p>
+
+- [**SwiFT**](https://github.com/Transconnectome/SwiFT) learns from the spatial and temporal structure of 4D fMRI.
+- [**SwiFUN**](https://github.com/Transconnectome/SwiFUN) predicts task-related brain activity from resting-state dynamics.
+- [**MBBN**](https://github.com/Transconnectome/MBBN) learns brain dynamics across frequency bands.
+- [**NeuroMamba**](https://github.com/Transconnectome/NeuroMamba) explores state-space models for fMRI.
+
+### Research across scales
+
+Brain foundation models · Computational psychiatry & imaging genetics<br>
+Affective neuroscience · Quantum machine learning for brain signals
+
+<details>
+<summary><strong>연구 분야 자세히 보기 / Research in detail</strong></summary>
+
+사람마다 생각하고 느끼며 자라나는 모습은 왜 다를까요?<br>
 **유전·뇌·행동·환경의 연결**에서 인간의 인지, 정서, 발달, 정신건강의 개인차를 연구합니다. 현상을 설명하는 이론 모델과 대규모 뇌·행동 데이터에서 예측 패턴을 학습하는 AI 모델을 함께 다루며, **잘 예측하는 것과 왜 그런지 설명하는 것 사이의 거리를 좁히는 연구**를 지향합니다.
 
 ### 1. 뇌 파운데이션 모델 (Neuro-X: Brain Foundation Models)
@@ -26,11 +57,13 @@ Associate Professor, Seoul National University · Principal Investigator, Connec
 * **질문**: 양자 계산은 복잡한 뇌 시계열 신호를 표현하고 학습하는 데 어떤 가능성을 열까?
 * **연구**: 양자 회로와 고전 신경망(양자 시계열 트랜스포머, **Q-DIVER**, 멀티칩 앙상블)을 결합해 뇌신호 학습의 파라미터 효율성, 하드웨어 확장 제약, 잡음 환경에서의 학습 안정성을 검증합니다.
 
----
 
-## Links
+</details>
 
-* **Website**: [connectomelab.com](https://www.connectomelab.com)
-* **Google Scholar**: [Jiook Cha](https://scholar.google.com/citations?user=fHSAoOoAAAAJ)
-* **GitHub Organizations**: [@Transconnectome](https://github.com/Transconnectome) · [@snuconnectome](https://github.com/snuconnectome) · [@neurox-org](https://github.com/neurox-org)
-* **Contact**: `connectome@snu.ac.kr` · 서울대학교 16동 M512호
+### Explore & connect
+
+[Connectome Lab](https://www.connectomelab.com) for research, people and news.<br>
+[Google Scholar](https://scholar.google.com/citations?user=fHSAoOoAAAAJ) for publications.<br>
+[Transconnectome](https://github.com/Transconnectome) · [NeuroX](https://github.com/neurox-org) for more code.
+
+[connectome@snu.ac.kr](mailto:connectome@snu.ac.kr) · 서울대학교 16동 M512호

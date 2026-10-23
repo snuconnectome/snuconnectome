@@ -74,3 +74,18 @@ need no build step. No API keys, widgets or scheduled jobs are required.
   not browser screenshots of the complete README.
 - Native GitHub browser controls are unavailable in this session; final public
   rendering is checked with a fresh screenshot service after publication.
+
+## Publication verification
+
+Published on 2026-10-23 KST. Profile implementation commit: `c2caeba`.
+
+- Remote main SHA matched the local implementation commit.
+- Fresh public desktop (1440 px) and mobile (390 px) screenshots inspected.
+- Mobile screenshot confirms the dedicated tall hero is selected correctly.
+- Live DOM confirms all three hero sources remain nested inside its picture.
+- GitHub's Markdown parser requires the linked hero HTML on one line here;
+  splitting inline anchor/picture across lines detached its source elements.
+- All four project URLs returned HTTP 200 without authentication.
+- Dark assets were visually inspected locally; live dark-mode switching was
+  not browser-tested because the available screenshot service has no theme
+  control. The public DOM retains the dark-mode media sources.

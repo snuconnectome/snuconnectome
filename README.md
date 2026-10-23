@@ -1,9 +1,4 @@
-<a href="https://www.connectomelab.com"><picture>
-  <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/hero-dark-mobile.png">
-  <source media="(max-width: 600px)" srcset="assets/hero-light-mobile.png">
-  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.png">
-  <img src="assets/hero-light.png" width="100%" alt="Jiook Cha (차지욱), Connectome Lab, Seoul National University. Understanding human differences through brain, mind and intelligence.">
-</picture></a>
+<a href="https://www.connectomelab.com"><picture><source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/hero-dark-mobile.png"><source media="(max-width: 600px)" srcset="assets/hero-light-mobile.png"><source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.png"><img src="assets/hero-light.png" width="100%" alt="Jiook Cha (차지욱), Connectome Lab, Seoul National University. Understanding human differences through brain, mind and intelligence."></picture></a>
 
 [Lab website](https://www.connectomelab.com) · [Publications](https://scholar.google.com/citations?user=fHSAoOoAAAAJ) · [Research code](https://github.com/Transconnectome) · [Email](mailto:connectome@snu.ac.kr)
 
@@ -21,9 +16,9 @@ with AI models of brain activity.
 
 ### Selected research code
 
-<p><a href="https://github.com/Transconnectome/SwiFT"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-swift-dark.png"><img src="assets/card-swift-light.png" width="49%" alt="SwiFT: 4D fMRI transformer. View public repository."></picture></a><a href="https://github.com/Transconnectome/SwiFUN"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-swifun-dark.png"><img src="assets/card-swifun-light.png" width="49%" alt="SwiFUN: Predicting task-related activity from resting-state fMRI. View public repository."></picture></a></p>
+<p><a href="https://github.com/Transconnectome/SwiFT"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-swift-dark.png"><img src="assets/card-swift-light.png" width="49%" alt="SwiFT: 4D fMRI transformer. View public repository."></picture></a> <a href="https://github.com/Transconnectome/SwiFUN"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-swifun-dark.png"><img src="assets/card-swifun-light.png" width="49%" alt="SwiFUN: Predicting task-related activity from resting-state fMRI. View public repository."></picture></a></p>
 
-<p><a href="https://github.com/Transconnectome/MBBN"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-mbbn-dark.png"><img src="assets/card-mbbn-light.png" width="49%" alt="MBBN: Learning brain dynamics across frequency bands. View public repository."></picture></a><a href="https://github.com/Transconnectome/NeuroMamba"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-neuromamba-dark.png"><img src="assets/card-neuromamba-light.png" width="49%" alt="NeuroMamba: A state-space foundation model for fMRI. View public repository."></picture></a></p>
+<p><a href="https://github.com/Transconnectome/MBBN"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-mbbn-dark.png"><img src="assets/card-mbbn-light.png" width="49%" alt="MBBN: Learning brain dynamics across frequency bands. View public repository."></picture></a> <a href="https://github.com/Transconnectome/NeuroMamba"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-neuromamba-dark.png"><img src="assets/card-neuromamba-light.png" width="49%" alt="NeuroMamba: A state-space foundation model for fMRI. View public repository."></picture></a></p>
 
 - [**SwiFT**](https://github.com/Transconnectome/SwiFT) learns from the spatial and temporal structure of 4D fMRI.
 - [**SwiFUN**](https://github.com/Transconnectome/SwiFUN) predicts task-related brain activity from resting-state dynamics.
